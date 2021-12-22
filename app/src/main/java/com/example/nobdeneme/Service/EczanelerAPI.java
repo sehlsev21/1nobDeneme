@@ -11,17 +11,17 @@ import retrofit2.http.Url;
 public interface EczanelerAPI {
     //------------------------------------------------------------
     @Headers({"Content-Type: application/json"
-            ,"Authorization: Bearer 8hjeqOaaXesmpaq9rc7eeqNZeFIPYhqDsDfZlIa9Jts9TO6dpRx5MZ71lWin"})
+            ,"Authorization: Bearer API-KEY"})
     @GET
     Call<DataEczaneler> bulunulanIl(@Url String url);
     //------------------------------------------------------------
     @Headers({"Content-Type: application/json"
-            ,"Authorization: Bearer 8hjeqOaaXesmpaq9rc7eeqNZeFIPYhqDsDfZlIa9Jts9TO6dpRx5MZ71lWin"})
+            ,"Authorization: Bearer API-KEY"})
     @GET("city/")
     Call<DataSehirler> iller();
     //------------------------------------------------------------
     @Headers({"Content-Type: application/json"
-            ,"Authorization: Bearer 8hjeqOaaXesmpaq9rc7eeqNZeFIPYhqDsDfZlIa9Jts9TO6dpRx5MZ71lWin"})
+            ,"Authorization: Bearer API-KEY"})
     @GET
     Call<DataIlceler> ilceler(@Url String url);
 //city?city=ankara

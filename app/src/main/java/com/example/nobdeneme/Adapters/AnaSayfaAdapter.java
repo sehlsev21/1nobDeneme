@@ -9,15 +9,12 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.nobdeneme.MapActivity;
 import com.example.nobdeneme.MapsActivity;
 import com.example.nobdeneme.Models.Eczaneler;
 import com.example.nobdeneme.R;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 
 public class AnaSayfaAdapter extends RecyclerView.Adapter<AnaSayfaAdapter.RowHolder> {
